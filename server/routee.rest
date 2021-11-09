@@ -1,0 +1,28 @@
+
+GET http://localhost:3000/subscribers
+###
+
+GET http://localhost:3000/subscribers
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+
+"name": "PEPE",
+"foto":"we sdf sdf sdf ",
+"ubicacion":"Peru"
+
+}
+
+###
+PATCH http://localhost:3000/subscribers/6178919f1d736d32005a8108
+
+Content-Type: application/json
+{
+    "name": "juan"
+}
+
+###
+DELETE http://localhost:3000/subscribers/617895864efae64014243b63
