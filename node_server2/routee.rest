@@ -1,0 +1,12 @@
+GET http://localhost:3000/familia/
+###
+POST http://localhost:3000/familia/
+
+Content-Type: application/json
+{
+
+    "NombreFamilia":"halosss",
+    "ubicacion":"hola",
+    "image":"hola"
+
+}
